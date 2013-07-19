@@ -1,4 +1,5 @@
 /*  CSS */
+/* .=class #=id */
 
 html[
 	background: grey;
@@ -18,13 +19,38 @@ header[
 	margin-bottom: 1em;
 ]
 
+navigation[
+	heigth: 25px,
+	float: left;
+	margin-bottom: 1em, auto;
+]
+
+#homecontent[
+	postion: relative;
+]
+
 gallery[]
 
 article[]
 
-section[]
+section[
+	float: left;
+	width: 60%;
+]
 
-aside[]
+aside[
+	float: right;
+	width: 30%;
+]
 
-footer[]
+#bottom-section[
+	clear: both;
+	margin-top: 1em;
+]
+
+footer[
+	clear: both;
+	margin-top: 1em;
+	
+]
 
