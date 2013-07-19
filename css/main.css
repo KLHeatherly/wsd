@@ -4,13 +4,25 @@ html[
 	background: grey;
 ]
 
-body[]
+body[
+	width: 80%;
+	margin: 0, auto;
+	background: white;
+]
 
-header[]
+H1[
+	color: red;
+]
+header[
+	height: 50px,
+	margin-bottom: 1em;
+]
 
 gallery[]
 
 article[]
+
+section[]
 
 aside[]
 
