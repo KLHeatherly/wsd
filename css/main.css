@@ -2,36 +2,101 @@
 /* .=class #=id */
 
 html[
-	background: grey;
+	background: #666;
 ]
 
 body[
+	font: 1em/1.5 Arial, Helvetica, sans-serif;
 	width: 80%;
 	margin: 0, auto;
 	background: white;
 ]
 
-H1[
-	color: red;
+h1, h2, h3, h4[
+	color: Purple;
+	font-weight: bold;
+	font-size: 1em;
+]
+
+h1[
+	font-size: 1.5em;
+]
+
+h2[
+	font-size: 1.3em;
+]
+
+h3[
+	font-size: 1.2em;
+]
+
+h4[
+	font-size: 1.1em;
 ]
 header[
-	height: 50px,
+	height: 50px;
 	margin-bottom: 1em;
+	background: black;
+	position: relative;
 ]
+
+
+/*--------------- NAV --------------*/
+
+ul[
+	width: 	100%;
+	background: #666;
+	margin: 0, auto;
+	padding, 0;
+	list-style-type: none;
+	overflow: hidden;
+	
+]
+
 
 navigation[
+	display: block;
 	heigth: 25px,
+	width: 100%
 	float: left;
-	margin-bottom: 1em, auto;
+	margin-bottom: 0, auto;
 ]
 
+navigation ul li a:link[
+	color: blue;
+	list-style-type: none;	
+]
+
+navigation ul li a:visited[
+	color: purple;
+	list-style-type: none;
+]
+navigation ul li a:hover[
+	color: gold;
+	list-style-type: none;
+]
+navigation ul li a:active[
+	color: white;
+	list-style-type: none;
+]
+
+
+/*-------------------- end Nav---------*/
+
+
 #homecontent[
+	clear: both;
 	postion: relative;
 ]
 
-gallery[]
+#gallery[
+	
+]
 
-article[]
+article[
+	position: relative;
+	
+]
 
 section[
 	float: left;
