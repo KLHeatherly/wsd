@@ -59,27 +59,27 @@ ul{
 }
 
 
-navigation{
+nav{
 	display: block;
 	width: 100%;
 	float: left;
 	margin: 0 auto;
 }
 
-navigation ul li a:link{
+.nav ul li a:link{
 	color: gold;
 	list-style-type: none;	
 }
 
-navigation ul li a:visited{
+.nav ul li a:visited{
 	color: purple;
 	list-style-type: none;
 }
-navigation ul li a:hover{
+.nav ul li a:hover{
 	color: gold;
 	list-style-type: none;
 }
-navigation ul li a:active{
+.nav ul li a:active{
 	color: white;
 	list-style-type: none;
 }
