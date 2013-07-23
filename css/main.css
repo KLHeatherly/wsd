@@ -1,121 +1,128 @@
 /*  CSS */
 /* .=class #=id */
 
-html[
-	background: #666;
-]
+html{
+	background-color: #666;
+}
 
-body[
-	font: 1em/1.5 Arial, Helvetica, sans-serif;
+body{
+	font: 1em/1.5em, Arial, Helvetica, "sans-serif";
 	width: 80%;
-	margin: 0, auto;
-	background: white;
-]
+	margin: 0 auto;
+	background-color: white;
+}
 
-h1, h2, h3, h4[
+h1, h2, h3, h4{
 	color: Purple;
 	font-weight: bold;
-	font-size: 1em;
-]
-
-h1[
 	font-size: 1.5em;
-]
+}
 
-h2[
+
+h2{
 	font-size: 1.3em;
-]
+}
 
-h3[
+h3{
 	font-size: 1.2em;
-]
+}
 
-h4[
+h4{
 	font-size: 1.1em;
-]
-header[
+}
+header{
 	height: 50px;
-	margin-bottom: 1em;
-	background: black;
+	background-color: black;
 	position: relative;
-]
+}
 
+a{
+	color:blue;
+	list-style-type: none;
+}
+
+.logo{
+	font: 1.5em, Georgia;
+	color: gold;
+}
 
 /*--------------- NAV --------------*/
 
-ul[
+ul{
 	width: 	100%;
 	background: #666;
-	margin: 0, auto;
-	padding, 0;
+	margin: 0 auto;
+	padding: 0;
 	list-style-type: none;
 	overflow: hidden;
 	
-]
+}
 
 
-navigation[
+navigation{
 	display: block;
-	heigth: 25px,
-	width: 100%
+	width: 100%;
 	float: left;
-	margin-bottom: 0, auto;
-]
+	margin: 0 auto;
+}
 
-navigation ul li a:link[
-	color: blue;
+navigation ul li a:link{
+	color: gold;
 	list-style-type: none;	
-]
+}
 
-navigation ul li a:visited[
+navigation ul li a:visited{
 	color: purple;
 	list-style-type: none;
-]
-navigation ul li a:hover[
+}
+navigation ul li a:hover{
 	color: gold;
 	list-style-type: none;
-]
-navigation ul li a:active[
+}
+navigation ul li a:active{
 	color: white;
 	list-style-type: none;
-]
+}
 
 
 /*-------------------- end Nav---------*/
 
 
-#homecontent[
+#homecontent{
 	clear: both;
-	postion: relative;
-]
+}
 
-#gallery[
+#gallery{
 	
-]
+}
 
-article[
+.photogallery li{
+	
+}
+
+article{
 	position: relative;
 	
-]
+}
 
-section[
+section{
 	float: left;
 	width: 60%;
-]
+}
 
-aside[
+aside{
 	float: right;
 	width: 30%;
-]
+}
 
-#bottom-section[
+#bottom-section{
 	clear: both;
 	margin-top: 1em;
-]
+}
 
-footer[
+footer{
 	clear: both;
 	margin-top: 1em;
-	
-]
+	text-align: center;
+}
 
