@@ -60,10 +60,9 @@ a{
 
 
 #nav li{
-	display: block;
-	width: 100%;
+	width: 20%;
 	float: left;
-	margin: 0 auto;
+ 	
 }
 
 #nav ul li a:link{
