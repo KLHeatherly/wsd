@@ -4,6 +4,8 @@
 		<title>Fan Site for Zeratul</title>
 		<meta charset="utf-8">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet" type="text/css">
 
 	</head>
 	
@@ -13,9 +15,9 @@
 	
 	<header>
 		<p>
-			Fansite	<!-- logo goes here -->
+			<span class="fansite">Fansite</span>	<!-- logo goes here -->
 		
-			<span class="logo"><em>"I do this for Auir"</em></span> <!-- tagline goes here -->
+			<span class="logo"><em>"I Do This For Auir"</em></span> <!-- tagline goes here -->
 		</p>
 	</header>
 	
@@ -23,30 +25,42 @@
 	<nav> <!-- Main nav -->
 		<ul id="nav">
 			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="#gallery">About</a></li>
+			<li><a href="#bottom-section">Contact</a></li>
 		</ul>
 	</nav>
 		
 	<div id="homecontent"> <!-- Home Content Div-->
-		<article>
-			<h1>The Dark Templar.</h1>
+		<div id="cta">   <!-- CTA DIV -->
+			<article>
+				<h1>The Dark Templar.</h1>
+				<div class="ctaimgwrapper">
+				<img src="images/zeratul_home_med.jpg"  alt="Photo of Zeratul from SC2"  title="Zeratul">
+		</div> <!-- end ctaimgwrapper -->
 			
-			<img src="images/zeratul_home_med.jpg"  alt="Photo of Zeratul from SC2"  title="Zeratul">
+				<p> Welcome to <strong>the fan site</strong> for our favorite character in the StarCraft 2
+				series, Zeratul. A somewhat secretive and calculating character, Zeratul is nevertheless a venerable
+				and wise leader who is honorable and loyal to his species. He would gladly risk anything to safeguard Aiur.
+				During the Great War, Zeratul allied with the Khalai Tassadar, despite his hatred for the Protoss Conclave 
+				that once banished his forebears. During the dire events leading up to the evacuation of Aiur, he also convinced
+				 the Khalai Protoss that his brethren, the Dark Templar, would be more welcoming of sheltering their estranged 
+				 brethren in their lightless homeworld Shakuras in contrast to the consistently hostile attitudes of the 
+				 Conclave towards his people. He knows that though he is scorned by the very same people who look to him for 
+				 salvation, he is aware of what must be done to save the universe, and must still lead his people to salvation. 
+				  The two leaders (and Jim Raynor) came to an understanding, joined forces and hid from the Zerg. He often 
+				  speaks in riddles, preferring that others come up with the answers to the questions he puts forward rather than answering them himself.
+				The discovery of the hybrids, led Zeratul to take a more active role once again.
+				<a class="button" href="#bottom-section"> Join Now</a>			
 			
-			<p> Welcome to <strong>the fan site</strong> for our favorite character in the StarCraft 2
-			series, Zeratul. The dark templar who killing the Second Overmind and Raszagal, the Dark Templar Matriarch.
-			The discovery of the hybrids, led Zeratul to go into seclusion to contemplate his actions and investigate.
-			As the Second Great War approached he began to take a more active role once again.			
-			
-			</p>
+				</p>
 
-		</article>
+			</article>
+		</div> <!-- END CTA DIV -->
 		
-		<div id="gallery"> <!-- Gallery -->
+	<div id="gallery"> <!-- Gallery -->
 		<h2> Gallery </h2>
 		
-		<ul class="photogallery">  <!--  Photo gallery -->
+		<ul>  <!--  Photo gallery -->
 				 <li> <a target="_blank" href="images/zeratul1.jpg">
 				 <img src="images/zeratul1_sm.jpg" alt="Zeratul" title="Zeratul"> </a> </li>
 				 
@@ -64,7 +78,7 @@
 		
 		
 		<section>
-			<h2>Auir</h2>
+			<h3>Auir</h3>
 			<p>Aiur is a huge world located on the fringes of the Milky Way Galaxy, home to the Protoss. 
 			It was engineered by the xel'naga and left to itself for a long period of time. When the xel'naga returned,
 			 they discovered the Protoss on the world. They guided Protoss evolution, as a result, they were forced to flee,

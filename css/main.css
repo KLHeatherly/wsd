@@ -2,55 +2,92 @@
 /* .=class #=id */
 
 html{
-	background-color: #666;
+	background-color: black; /* #666;*/
 }
 
 body{
-	font: 1em/1.5em, Arial, Helvetica, "sans-serif";
+	font-family: "Pathway Gothic One", sans-serif;
+	font-size:  1em;
+	line-height: 1.5em;
+	color: white;
 	width: 80%;
 	margin: 0 auto;
-	background-color: white;
+	background-color: #666;
+	text-align: justify;
 }
 
+p{
+	font-size: 1.2em;
+}
+
+img{
+	max-width: 100%
+}
+
+#ctaimgwrapper{
+	float: left;
+	padding: 0 1.250em;
+	width: 25.000em;
+}
+
+#ctaimgwrapper img{
+	max-width: 100%
+}
+
+
 h1, h2, h3, h4{
-	color: Purple;
+	color: blue;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 2.5em;
+	text-align: center;
+	padding-left: .313em;
+	text-shadow: 4px 4px 2px #133cac
 }
 
 
 h2{
-	font-size: 1.3em;
+	font-size: 2em;
 }
 
 h3{
-	font-size: 1.2em;
+	font-size: 1.7em;
 }
 
 h4{
-	font-size: 1.1em;
+	font-size: 1.5em;
 }
 header{
-	height: 50px;
+	height: 3.125em;
 	background-color: black;
+	text-indent: 23em;
 	position: relative;
 }
 
 a{
-	color:blue;
+	color: purple;
 	list-style-type: none;
 }
 
 .logo{
-	font: 1.5em, Georgia;
+	font-family: "Joti One", cursive;
+	font-size: 1.5em;
 	color: gold;
+}
+
+.fansite{
+	color: black;
+	text-indent: -999999em;
 }
 
 /*--------------- NAV --------------*/
 
+nav{
+	width:100%;
+	background: black;
+}
+
 #nav{
-	width: 	60%;
-	background: #666;
+	width: 	50%;
 	margin: 0 auto;
 	padding: 0;
 	list-style-type: none;
@@ -60,8 +97,10 @@ a{
 
 
 #nav li{
-	width: 20%;
+	width: 33%;
 	float: left;
+	text-align: center;
+	padding: 5px 0;
  	
 }
 
@@ -70,7 +109,7 @@ a{
 }
 
 #nav li a:visited{
-	color: purple;
+	color: gold;
 }
 #nav li a:hover{
 	color: white;
@@ -85,15 +124,35 @@ a{
 
 #homecontent{
 	clear: both;
+	width: 90%;
+	margin: 0 auto;
+	padding:0;
 }
+
 
 #gallery{
-	
+	clear: both;
+	width: 	55%;
+	margin: 0 auto 2em;
+	padding: 0;
 }
 
-.photogallery li{
-	
+#gallery li{
+	display: block;
+	float: left;
+	list-style-type: none;
+	margin: .625em 1.250em;
+	border: 5px solid blue;
+	border-radius: 5px;
+	overflow: hidden;
+
 }
+
+#cta{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: .125em .625em .313em;
+}
+
 
 article{
 	position: relative;
@@ -113,11 +172,133 @@ aside{
 #bottom-section{
 	clear: both;
 	margin-top: 1em;
+	text-align: center;
+
+	-ms- opacity: 0.5;
+	-moz- opacity: 0.5;
+	-webkit- opacity: 0.5;
+	-O- opacity: 0.5;
+	-khtml- opacity: 0.5;
+	opacity: 0.5;
+
 }
 
 footer{
 	clear: both;
 	margin-top: 1em;
 	text-align: center;
+	background-color: black;
 }
+
+footer p{
+	font-size: .8em;
+}
+
+.button{
+    display: block;
+    height: 1.250em;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background-color: white;
+    color: purple;
+    padding-bottom: .188em;
+    margin-left: 8em;
+}
+
+/*  Media */
+
+
+@media screen and (min-width: 768px) and (max-width: 959px){
+ header{
+	height: 3.125em;
+	background-color: black;
+	text-indent: 10em;
+}
+
+  
+ }
+
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+
+ header{
+	height: 3.125em;
+	background-color: black;
+	text-indent: 6em;
+
+}
+
+.button{
+    display: block;
+    height: 1.250em;
+    width: 15%;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background-color: white;
+    color: purple;
+    padding-bottom: .188em;
+    margin-left: 8em;
+}
+
+section, aside{
+	width: 40%
+}
+
+
+}
+
+@media screen and (max-width: 479px){
+
+ header{
+	height: 3.125em;
+	background-color: black;
+	text-indent: 1em;
+
+}
+
+.button{
+    display: block;
+    height: 1.250em;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background-color: white;
+    color: purple;
+    padding-bottom: .188em;
+    margin-left: 8em;
+}
+
+#gallery{
+	clear: both;
+	width: 	90%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#gallery li{
+	display: block;
+	float: left;
+	list-style-type: none;
+	border: 5px solid blue;
+	border-radius: 5px;
+	overflow: hidden;
+
+}
+
+section, aside{
+	float: none;
+	width: 90%;
+}
+
+
+
+}
+
 
