@@ -31,7 +31,8 @@ img{
 }
 
 #ctaimgwrapper img{
-	max-width: 100%
+	max-width: 100%;
+	float: left;
 }
 
 
@@ -174,11 +175,11 @@ aside{
 	margin-top: 1em;
 	text-align: center;
 
-	-ms- opacity: 0.5;
-	-moz- opacity: 0.5;
-	-webkit- opacity: 0.5;
-	-O- opacity: 0.5;
-	-khtml- opacity: 0.5;
+	-ms-opacity: 0.5;
+	-moz-opacity: 0.5;
+	-webkit-opacity: 0.5;
+	-O-opacity: 0.5;
+	-khtml-opacity: 0.5;
 	opacity: 0.5;
 
 }
@@ -208,7 +209,70 @@ footer p{
     margin-left: 8em;
 }
 
-/*  Media */
+/* ------------Form ---------------*/
+
+#formcontainer{
+	margin: 0 auto;
+	padding: 0;
+	width: 70%;
+	height: 100%;
+	background-color: black;
+}
+#table{
+	font-family: "Joti One", cursive;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: gold;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	width: 30%;
+	float: left;
+	
+}
+
+#signupform{
+	margin: 0;
+	padding: 0;
+	width: 70%;
+	text-align: center;
+	float: right;
+	background-color: black;
+
+}
+
+.h1form{
+	font-family: "Joti One", cursive;
+	font-size: 2.5em;
+	color: gold;
+	text-shadow: none;
+}
+
+.terms{
+	font-size: .6em;
+	
+}
+
+label{
+	padding: 0 5px;
+}
+
+legend{
+	color: gold;
+}
+
+/* ------------Table -------*/
+
+table{
+	text-align: center;
+}
+
+th{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* ------------ Media --------------*/
 
 
 @media screen and (min-width: 768px) and (max-width: 959px){
@@ -248,6 +312,14 @@ footer p{
 section, aside{
 	width: 40%
 }
+
+.h1form{
+	font-family: "Joti One", cursive;
+	font-size: 2em;
+	color: gold;
+	text-shadow: none;
+}
+
 
 
 }
@@ -296,6 +368,23 @@ section, aside{
 	float: none;
 	width: 90%;
 }
+
+.h1form{
+	font-family: "Joti One", cursive;
+	font-size: 1.5em;
+	color: gold;
+	text-shadow: none;
+}
+
+#table{
+	text-indent: -999999px;
+	color: black;
+}
+
+#signupform{
+	float: none;
+}
+
 
 
 
