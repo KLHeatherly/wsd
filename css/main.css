@@ -21,18 +21,16 @@ p{
 }
 
 img{
-	max-width: 100%
+	max-width: 100%;
+	float: left;
 }
 
+
 #ctaimgwrapper{
+	display: block;
 	float: left;
 	padding: 0 1.250em;
 	width: 25.000em;
-}
-
-#ctaimgwrapper img{
-	max-width: 100%;
-	float: left;
 }
 
 
@@ -128,6 +126,7 @@ nav{
 	width: 90%;
 	margin: 0 auto;
 	padding:0;
+	overflow: hidden;
 }
 
 
@@ -152,22 +151,27 @@ nav{
 #cta{
 	background-color: rgba(0, 0, 0, 0.7);
 	padding: .125em .625em .313em;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 
 article{
 	position: relative;
+	margin: 0 auto;
 	
 }
 
 section{
 	float: left;
 	width: 60%;
+
 }
 
 aside{
 	float: right;
 	width: 30%;
+
 }
 
 #bottom-section{
@@ -175,12 +179,12 @@ aside{
 	margin-top: 1em;
 	text-align: center;
 
-	-ms-opacity: 0.5;
-	-moz-opacity: 0.5;
-	-webkit-opacity: 0.5;
-	-O-opacity: 0.5;
-	-khtml-opacity: 0.5;
-	opacity: 0.5;
+	-ms-opacity: 0.8;
+	-moz-opacity: 0.8;
+	-webkit-opacity: 0.8;
+	-O-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
 
 }
 
@@ -212,11 +216,13 @@ footer p{
 /* ------------Form ---------------*/
 
 #formcontainer{
+	position: relative;
 	margin: 0 auto;
 	padding: 0;
 	width: 70%;
 	height: 100%;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
 }
 #table{
 	font-family: "Joti One", cursive;
@@ -225,10 +231,8 @@ footer p{
 	color: gold;
 	margin: 0;
 	padding: 0;
-	background-color: black;
 	width: 30%;
 	float: left;
-	
 }
 
 #signupform{
@@ -237,7 +241,7 @@ footer p{
 	width: 70%;
 	text-align: center;
 	float: right;
-	background-color: black;
+	height: 100%;
 
 }
 
@@ -274,6 +278,25 @@ th{
 
 /* ------------ Media --------------*/
 
+@media screen and (min-width: 960px) and (max-width: 1370px){
+
+#gallery{
+	clear: both;
+	width: 	80%;
+	margin: 0 auto 2em;
+	padding: 0;
+}
+
+h2{
+	text-indent: -2em;
+}
+
+
+
+
+}
+
+
 
 @media screen and (min-width: 768px) and (max-width: 959px){
  header{
@@ -281,6 +304,26 @@ th{
 	background-color: black;
 	text-indent: 10em;
 }
+
+
+#gallery{
+	clear: both;
+	width: 	80%;
+	margin: 0 auto 2em;
+	padding: 0;
+}
+
+#gallery li{
+	display: block;
+	float: left;
+	list-style-type: none;
+	margin: .625em 0em;
+	border: 5px solid blue;
+	border-radius: 5px;
+	overflow: hidden;
+
+}
+
 
   
  }
@@ -294,6 +337,11 @@ th{
 	text-indent: 6em;
 
 }
+
+img{
+	float: none;
+}
+
 
 .button{
     display: block;
@@ -320,6 +368,16 @@ section, aside{
 	text-shadow: none;
 }
 
+#formcontainer{
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+	height: 100%;
+}	
+
+
+
 
 
 }
@@ -332,6 +390,11 @@ section, aside{
 	text-indent: 1em;
 
 }
+
+img{
+	float: none;
+}
+
 
 .button{
     display: block;
@@ -377,6 +440,8 @@ section, aside{
 }
 
 #table{
+	display: none;
+	float: none;
 	text-indent: -999999px;
 	color: black;
 }
